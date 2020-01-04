@@ -1,0 +1,14 @@
+text/html; lynx -dump -assume_charset=%{charset} -display_charset='utf8' -force_html %s; needsterminal; copiousoutput
+application/msword; antiword %s ; copiousoutput
+application/pdf; evince %s
+application/Pdf; evince %s
+application/PDF; evince %s
+image/jpeg; feh %s
+image/gif; feh %s
+image/GIF; feh %s
+image/JPG; feh %s
+image/jpg; feh %s
+image/png; feh %s
+image/PNG; feh %s
+image/Png; feh %s
+application/vnd.oasis.opendocument.text; libreoffice %s

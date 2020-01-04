@@ -1,0 +1,59 @@
+unbind-key j
+unbind-key k
+bind-key j down
+bind-key k up
+bind-key ^D pagedown
+bind-key ^U pageup
+bind-key g home
+bind-key G end
+bind-key h quit
+
+articlelist-format  "%4i %f %D   %?T?|%-17T|  ?%t"
+notify-format       "%d new articles (%n unread articles, %f unread feeds)"
+
+auto-reload yes
+reload-time 15
+max-items 250
+reload-threads 3
+reload-time 60
+
+notify-always yes
+notify-program notify-send
+notify-xterm yes
+notify-screen yes
+
+player vlc
+
+always-display-description true
+download-full-page yes
+auto-reload yes
+
+# -- display -------------------------------------------------------------------
+
+# show-read-feeds no
+feed-sort-order unreadarticlecount-asc
+
+color info default default reverse
+color listnormal_unread yellow default
+color listfocus blue default reverse bold
+color listfocus_unread blue default reverse bold
+
+text-width 80
+
+# html-renderer "lynx -dump -display_charset='utf8' -force_html" 
+html-renderer "w3m -dump -T text/html" 
+external-url-viewer "/usr/bin/urlview"
+#browser "w3m %u" 
+
+goto-first-unread   yes
+goto-next-feed      yes
+# show-read-feeds     no
+# show-read-articles  no
+text-width          80
+refresh-on-startup  no
+prepopulate-query-feeds yes
+
+#feed-sort-order     unreadarticlecount-asc
+feed-sort-order     title-desc
+
+browser "open %u"

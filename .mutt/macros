@@ -1,0 +1,2 @@
+macro pager \cb <pipe-entry>'urlview'<enter> 'Follow links with urlview'
+macro index .n      "<next-unread-mailbox><enter><next-new-then-unread><enter>" "Go to new mail"
