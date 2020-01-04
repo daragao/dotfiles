@@ -1,4 +1,4 @@
-set my_pass_gmail_app=`pass gmail_app`
+set my_pass_gmail_app=`pass clearmatics/gmail_app`
 
 set editor="vim -c 'set spell spelllang=en_gb'"
 set ssl_starttls=yes
