@@ -17,7 +17,9 @@ http://www.reddit.com/user/doart3/m/startup/.rss "reddit_startup" "!Startup Mult
 #
 https://www.theverge.com/rss/index.xml "tech" "!The Verge"
 https://news.ycombinator.com/rss "tech" "!Y Combinator"
-https://keavy.com/feed.xml "tech" "!Keavy (Tech Lead)"
+https://dev.to/feed "tech" "!Dev To"
+http://www.geeksforgeeks.org/feed "tech" "!Geeks for Geeks"
+https://linuxize.com/index.xml "tech" "!Linuxize"
 
 ######################
 # News 
@@ -104,6 +106,17 @@ https://mathinvestor.org/feed/ "finance" "!Math Investor"
 https://www.cyberciti.biz/feed/ "linux" "!Cyberciti"
 https://www.archlinux.org/feeds/news/ "linux" "!Arch Linux"
 
+######################
+# Tech People
+######################
+#
+http://www.aaronsw.com/2002/feeds/pgessays.rss "tech-people" "!Paul Graham"
+https://fuzzyblog.io/blog/feed.xml "tech-people" "!Fuzzy Blog"
+https://devblogs.microsoft.com/oldnewthing/feed/ "tech-people" "!The Old New Thing"
+https://blog.cryptographyengineering.com/feed "tech-people" "!Cryptography Engineering"
+https://keavy.com/feed.xml "tech-people" "!Keavy (Tech Lead)"
+http://herdingcats.typepad.com/my_weblog/atom.xml "tech-people" "!Herding Cats"
+
 # Query Feeds
 "query:Alerts:tags # \"alerts\""
 "query:Crypto People:tags # \"crypto-people\""
@@ -114,6 +127,7 @@ https://www.archlinux.org/feeds/news/ "linux" "!Arch Linux"
 "query:News:tags # \"news\""
 "query:Reddit Blockchain:tags # \"reddit_blockchain\""
 "query:Reddit Finance:tags # \"reddit_finance\""
+"query:Tech People:tags # \"tech-people\""
 "query:Reddit Engineering:tags # \"reddit_engineering\""
 "query:Reddit Startup:tags # \"reddit_startup\""
 "query:Technology:tags # \"tech\""
