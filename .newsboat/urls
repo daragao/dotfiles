@@ -117,6 +117,8 @@ https://blog.cryptographyengineering.com/feed "tech-people" "!Cryptography Engin
 https://keavy.com/feed.xml "tech-people" "!Keavy (Tech Lead)"
 http://herdingcats.typepad.com/my_weblog/atom.xml "tech-people" "!Herding Cats"
 https://www.joelonsoftware.com/rss.xml "tech-people" "!Joel on Software"
+https://letterstoanewdeveloper.com/feed/ "tech-people" "!Letters to a new developer"
+
 
 # Query Feeds
 "query:Alerts:tags # \"alerts\""
